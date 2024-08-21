@@ -1,0 +1,31 @@
+#heading {
+    color: red;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 152, 190);
+}
+
+.inner {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: -18px;
+}
