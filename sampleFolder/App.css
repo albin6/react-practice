@@ -1,0 +1,41 @@
+.form {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 10px 0;
+    height: 25px;
+}
+
+.input-field > input {
+    width: 180px;
+    height: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 6px black;
+    padding: 0 8px;
+}
+
+.sbt-btn {
+    width: 340px;
+    height: 30px;
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 7px;
+}

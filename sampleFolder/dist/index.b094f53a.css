@@ -1,0 +1,42 @@
+.form {
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.input-field {
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+  margin: 0 0 10px;
+  display: flex;
+}
+
+.input-field > input {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 180px;
+  height: 100%;
+  padding: 0 8px;
+  box-shadow: 5px 5px 6px #000;
+}
+
+.sbt-btn {
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: navy;
+  border-radius: 7px;
+  width: 340px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=index.b094f53a.css.map */

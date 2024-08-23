@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom/client";
-import AdvancedCounter from "./AdvancedCounter";
+import Form from "./Form"
 
 const AppLayout = () => {
   return (
     <div>
-      <AdvancedCounter />
+      <Form />
     </div>
   );
 };
